@@ -1,0 +1,27 @@
+{
+  "name": "eat_da_burger",
+  "version": "1.0.0",
+  "description": "single page app that lets user imput the name of the burger they want to eat with the choice of devouring it. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiresjo1/Eat-Da-Burger.git"
+  },
+  "author": "Jordan Hires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiresjo1/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/Hiresjo1/Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2"
+  }
+}
